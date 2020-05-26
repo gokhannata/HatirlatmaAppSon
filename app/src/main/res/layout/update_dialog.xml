@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextNotId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Not Başlık"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"></EditText>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextNotDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="top|left"
+        android:hint="Not İçerik"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:minLines="4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"></EditText>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:padding="2dp">
+
+
+        <TextView
+            android:id="@+id/textViewTarihUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/textViewSaatUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/buttonshape"
+            android:drawableTop="@drawable/ic_date_range_black_24dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Tarihi Seçiniz"
+            android:id="@+id/buttonTarihUpdate"></Button>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/buttonshape"
+            android:drawableTop="@drawable/ic_access_time_black_24dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Saati Seçiniz"
+            android:id="@+id/buttonSaatUpdate"></Button>
+
+    </LinearLayout>
+
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Görev Tamamlandı"
+        android:drawableLeft="@drawable/ic_check_box_black_24dp"
+        android:textColor="#008000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonUpdateNot"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/buttonshape"
+            android:drawableTop="@drawable/ic_update_black_24dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Güncelle" />
+
+        <Button
+            android:id="@+id/buttonShare"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/buttonshape"
+            android:drawableTop="@drawable/ic_share_black_24dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:shadowRadius="5"
+            android:text="Paylaş" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="20dp"
+        android:padding="2dp">
+        <Button
+            android:id="@+id/buttonDeleteNot"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/buttonshape"
+            android:drawableTop="@drawable/ic_delete_black_24dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Sil" />
+    </LinearLayout>
+
+
+</LinearLayout>

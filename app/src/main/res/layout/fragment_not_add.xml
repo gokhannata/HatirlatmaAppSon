@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".fragments.NotAdd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <EditText
+            android:id="@+id/editTextNotBaslik"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Not Başlık"
+            android:layout_margin="10dp"
+            android:padding="5dp"></EditText>
+
+        <EditText
+            android:id="@+id/editTextNotIcerik"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:gravity="top|left"
+            android:hint="Kategori"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:minLines="4"
+            android:layout_margin="10dp"
+            android:padding="5dp"></EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/buttonTarih"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@drawable/buttonshape"
+                android:drawableTop="@drawable/ic_date_range_black_24dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:layout_marginRight="3dp"
+                android:text="Tarih">
+
+            </Button>
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/buttonSaat"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@drawable/buttonshape"
+                android:drawableTop="@drawable/ic_access_time_black_24dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Saat">
+
+            </Button>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textViewNotTarihi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="7dp"
+                android:textSize="18sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textViewNotSaati"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="7dp"
+                android:textSize="18sp">
+            </TextView>
+
+        </LinearLayout>
+
+
+        <!--
+         <TextView
+            android:id="@+id/textButonKaydet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            tools:ignore="OnClick"
+            android:text="Kaydet"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:textSize="20dp"></TextView>
+         -->
+
+
+
+         <Button
+            android:id="@+id/buttonNotKaydet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+             android:layout_margin="10dp"
+            android:text="Not Kaydet"
+            tools:ignore="OnClick"
+             >
+
+        </Button>
+
+    </LinearLayout>
+
+</FrameLayout>

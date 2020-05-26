@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "197136180552",
+    "firebase_url": "https://hatirlatmaappson.firebaseio.com",
+    "project_id": "hatirlatmaappson",
+    "storage_bucket": "hatirlatmaappson.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197136180552:android:e56926f0cabfff03d8ff7d",
+        "android_client_info": {
+          "package_name": "com.example.hatirlatmaappson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197136180552-s37ahq3eq4egcp1o00316prmnkjurh8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA97U92srgHoXJ8Gz3LYFEyrlwG_TuaFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197136180552-s37ahq3eq4egcp1o00316prmnkjurh8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
